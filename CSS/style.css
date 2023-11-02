@@ -64,7 +64,7 @@ a:hover {
     padding-top: 8%;
    margin-top: 150px;
      border-radius: 10px;
-     height: fit-content;
+     height: 80vh;
      width: 100%;
      margin-bottom: 5px;
      box-shadow: 0 0 2rem 0 rgb(1, 248, 252);
@@ -131,7 +131,7 @@ a:hover {
 }
 /* End of animation */
 
-@media screen and (min-width: 300px) {
+@media screen and (max-width: 300px) {
     .animate-charcter {
         font-size: 67px;
     }
@@ -146,6 +146,10 @@ a:hover {
     background-color: aqua;
 }
 
+button {
+    background-color: black;
+    color: white;
+}
 button:hover {
     transform: rotateY(180deg);
     transition: 1s;
