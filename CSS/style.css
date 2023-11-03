@@ -1,255 +1,382 @@
 body {
-    background-image: url(https://i.postimg.cc/761dkwft/d6c501057a76f6d4f318edb3954f70ae.jpg);
+  background-image: url(https://i.postimg.cc/761dkwft/d6c501057a76f6d4f318edb3954f70ae.jpg);
 }
 
 a:hover {
-    border-radius: 10px;
-    background-color: aqua;
+  border-radius: 10px;
+  background-color: aqua;
 }
-
-/* #about , #education , #skills , #projects , #testimonials , #contact  */
-
-#index {
-   padding-top: 8%;
-  margin-top: 150px;
-    border-radius: 10px;
-    height: 85vh;
-    width: 100%;
-    margin-bottom: 5px;
-    box-shadow: 0 0 2rem 0 rgb(1, 248, 252);
-    backdrop-filter: blur(1rem);
-    border: 1px solid-transparent;
-    background-color: rgba(116, 114, 114, 0.5);
-    
+#projects {
+  padding-top: 8%;
+ margin-top: 300px;
+   border-radius: 10px;
+   height: 80vh;
+   width: 100%;
+   margin-bottom: 5px;
+   box-shadow: 0 0 2rem 0 rgb(1, 248, 252);
+   backdrop-filter: blur(1rem);
+   border: 1px solid-transparent;
+   background-color: rgba(116, 114, 114, 0.5);
 } 
-#about {
-    padding-top: 8%;
-   margin-top: 150px;
-     border-radius: 10px;
-     height: 110vh;
-     width: 90%;
-     margin-bottom: 5px;
-     box-shadow: 0 0 2rem 0 rgb(1, 248, 252);
-     backdrop-filter: blur(1rem);
-     border: 1px solid-transparent;
-     background-color: rgba(116, 114, 114, 0.5);
- } 
- #education {
-    padding-top: 8%;
-   margin-top: 150px;
-     border-radius: 10px;
-     height: 100vh;
-     width: 100%;
-     margin-bottom: 5px;
-     box-shadow: 0 0 2rem 0 rgb(1, 248, 252);
-     backdrop-filter: blur(1rem);
-     border: 1px solid-transparent;
-     background-color: rgba(116, 114, 114, 0.5);
- } 
-
- #skills {
-    padding-top: 8%;
-   margin-top: 150px;
-     border-radius: 10px;
-     height: 110vh;
-     width: 100%;
-     margin-bottom: 100px;
-     box-shadow: 0 0 2rem 0 rgb(1, 248, 252);
-     backdrop-filter: blur(1rem);
-     border: 1px solid-transparent;
-     background-color: rgba(116, 114, 114, 0.5);
- } 
-
- #projects {
-    padding-top: 8%;
-   margin-top: 300px;
-     border-radius: 10px;
-     height: 80vh;
-     width: 100%;
-     margin-bottom: 5px;
-     box-shadow: 0 0 2rem 0 rgb(1, 248, 252);
-     backdrop-filter: blur(1rem);
-     border: 1px solid-transparent;
-     background-color: rgba(116, 114, 114, 0.5);
- } 
-
- #testimonials {
-    padding-top: 8%;
-   margin-top: 150px;
-     border-radius: 10px;
-     height: 130vh;
-     width: 100%;
-     margin-bottom: 5px;
-     box-shadow: 0 0 2rem 0 rgb(1, 248, 252);
-     backdrop-filter: blur(1rem);
-     border: 1px solid-transparent;
-     background-color: rgba(116, 114, 114, 0.5);
- } 
-
- #contact {
-    padding-top: 8%;
-   margin-top: 150px;
-     border-radius: 10px;
-     height: 100vh;
-     width: 100%;
-     margin-bottom: 5px;
-     box-shadow: 0 0 2rem 0 rgb(1, 248, 252);
-     backdrop-filter: blur(1rem);
-     border: 1px solid-transparent;
-     background-color: rgba(116, 114, 114, 0.5);
- } 
-/* animation code */
-.animate-charcter
-{
-   text-transform: uppercase;
-  background-image: linear-gradient(
-    -225deg,
-    #f4f2f8 0%,
-    #96e0e9 29%,
-    #51f7bd 67%,
-    #71f06d 100%
-  );
-  background-size: auto auto;
-  background-clip: border-box;
-  background-size: 200% auto;
-  color: #fff;
-  background-clip: text;
-  text-fill-color: transparent;
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  animation: textclip 2s linear infinite;
-  display: inline-block;
-      font-size: 200px;
-}
-
-.animate-charcter {
-    font-size: 120px;
-}
-
-@keyframes textclip {
-    to {
-        background-position: 200% center;
-    }
-}
-/* End of animation */
-
-@media screen and (max-width: 300px) {
-    .animate-charcter {
-        font-size: 50px;
-    }
-
-    #projects {
-        height: 200vh;
-    }
-}
-
-a:hover {
-    border-radius: 10px;
-    background-color: aqua;
-}
 a {
-    color: #0ff33d;
+  color: #0ff33d;
 }
 .card {
-    margin: 10px;
+  margin: 10px;
 }
 button {
-    border-radius: 10px;
-    background-color: #0ff33d;
-    color: black;
+  border-radius: 10px;
+  background-color: #0ff33d;
+  color: black;
 }
+
+@media screen and (max-width: 300px) {
+  #projects {
+      height: 210vh;
+  }
+}
+
+a:hover {
+  border-radius: 10px;
+  background-color: aqua;
+}
+
 button:hover {
-    transform: rotateY(180deg);
-    transition: 1s;
-    border-radius: 10px;
-    background-color: aqua;
-}
-h3 {
-    font-size: small;
+  transform: rotateY(180deg);
+  transition: 1s;
+  border-radius: 10px;
+  background-color: aqua;
 }
 
 body {
-    font-family: Arial, Helvetica, sans-serif;
-  }
-  
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.col-1 {
+ margin-right: 10%;
+ margin-left: 10%;
+}
+
+.col-2 {
+  /* margin-right: 20%; */
+  margin-left: 10%;
+  margin-top: 10%;
+  height: 200px;
+  width: 200px;
+ }
+@media screen and (max-width: 300px){
   .flip-card {
-    background-color: transparent;
-    width: 300px;
-    height: 300px;
-    perspective: 1000px;
+
+      height: 100%;
+      width:100%;
+      margin-top: auto;
+  }
+}
+ /* <----------------------------------------------------------------------------------------------------------------> */
+/* landing page */
+
+.flex {
+display: flex;
+}
+
+.box-1 {
+border-image-width: 50px;
+
+}
+
+.box-2 {
+margin-bottom: 60%;
+height: 150px;
+width:900px;
+}
+
+#index {
+padding-top: 8%;
+margin-top: 150px;
+ border-radius: 10px;
+ height: 80vh;
+ width: 100%;
+ margin-bottom: 5px;
+ box-shadow: 0 0 2rem 0 rgb(1, 248, 252);
+ backdrop-filter: blur(1rem);
+ border: 1px solid-transparent;
+ background-color: rgba(116, 114, 114, 0.5);
+} 
+
+.responsive {
+  width: 100%;
+  max-width: 400px;
+  height: auto;
+}
+@media screen and (max-width: 300px) {
+  #index {
+      width: 90%;
+  }
+}
+
+/* animation code */
+
+
+@media screen and (max-width: 300px) {
+  .col-sm-8 {
+      border-image-width: auto;
+  }
+}
+
+
+/* End of animation */
+
+/* end of landing page */
+
+
+
+
+/* <---------------------------------------------------------------------------------------------------------------------------------> */
+/* ABOUT */
+
+#about {
+  text-align: center;
+  font-size: larger;
+  font-weight: 400;
+  padding-top: 8%;
+ margin-top: 150px;
+   border-radius: 10px;
+   height: 80vh;
+   width: 90%;
+   margin-bottom: 5px;
+   box-shadow: 0 0 2rem 0 rgb(1, 248, 252);
+   backdrop-filter: blur(1rem);
+   border: 1px solid-transparent;
+   background-color: rgba(116, 114, 114, 0.5);
+} 
+.con-about {
+  text-align: center;
+ height: 80%;
+}
+@media screen and (max-width: 300px) {
+  #about {
+      height: 140vh;
+  }
+}
+
+/* <---------------------------------------------------------------------------------------------------------------------------------> */
+/* EDUCATION */
+
+
+#education {
+  padding-top: 8%;
+ margin-top: 150px;
+   border-radius: 10px;
+   height: 130vh;
+   width: 100%;
+   margin-bottom: 5px;
+   box-shadow: 0 0 2rem 0 rgb(1, 248, 252);
+   backdrop-filter: blur(1rem);
+   border: 1px solid-transparent;
+   background-color: rgba(116, 114, 114, 0.5);
+} 
+
+@media screen and (max-width: 300px) {
+  #education {
+      height: 120vh;
+      font-size: 2px;
+  }
+  .col-4 {
+      
+  }
+}
+/* <---------------------------------------------------------------------------------------------------------------------------------> */
+/* Skills */
+
+#skills {
+  padding-top: 8%;
+ margin-top: 150px;
+   border-radius: 10px;
+   height: 110vh;
+   width: 100%;
+   margin-bottom: 100px;
+   box-shadow: 0 0 2rem 0 rgb(1, 248, 252);
+   backdrop-filter: blur(1rem);
+   border: 1px solid-transparent;
+   background-color: rgba(116, 114, 114, 0.5);
+} 
+
+@media screen and (max-width: 300px) {
+  #skills {
+      height: 120vh;
   }
 
   #f-1 {
-    background-color: transparent;
-    width: 300px;
-    height: 100px;
-    perspective: 1000px;
+      margin-left: 15%;
   }
-  
-  .flip-card-inner {
-    position: relative;
-    width: 100%;
-    height: 100%;
-    margin: 5px;
-    text-align: center;
-    transition: transform 0.6s;
-    transform-style: preserve-3d;
-    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  #skills h1 {
+      font-size: 30px;
   }
-  
-  .flip-card:hover .flip-card-inner {
-    transform: rotateY(180deg);
-  }
-  
-  .flip-card-front, .flip-card-back {
-    position: absolute;
-    width: 100%;
-    height: 100%;
-    -webkit-backface-visibility: hidden;
-    backface-visibility: hidden;
-  }
-  
-  .flip-card-front {
-    background-color: #bbb;
-    color: black;
-    height: auto;
-  }
-  
-  .flip-card-back {
-    background-color: #2980b9;
-    color: white;
-    transform: rotateY(180deg);
-  }
-  .col-1 {
-   margin-right: 10%;
-   margin-left: 10%;
-  }
-
-  .col-2 {
-    margin-right: 20%;
-    margin-left: 10%;
-    height: 200px;
-    width: 200px;
-   }
-@media screen and (max-width: 300px){
-    .flip-card {
-
-        height: 100%;
-        width:100%;
-        margin-top: auto;
-    }
-
-    .testimonials {
-        height: auto;
-        margin-bottom: 50%;
-    }
-
-    .contact {
-
-    }
-
-    .col-1 {
-      
-       }
 }
-   
+/* <---------------------------------------------------------------------------------------------------------------------------------> */
+/* Testimonials */
+
+
+.flip-card {
+  background-color: transparent;
+  width: 300px;
+  
+  perspective: 1000px;
+}
+
+
+
+.flip-card-inner {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  margin: 5px;
+  text-align: center;
+  transition: transform 0.6s;
+  transform-style: preserve-3d;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+}
+
+.flip-card:hover .flip-card-inner {
+  transform: rotateY(180deg);
+}
+
+.flip-card-front, .flip-card-back {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+}
+
+.flip-card-front {
+  background-color: #bbb;
+  color: black;
+  height: auto;
+}
+
+.flip-card-back {
+  background-color: #2980b9;
+  color: white;
+  transform: rotateY(180deg);
+}
+
+#testimonials {
+
+padding-top: 8%;
+margin-top: 150px;
+ border-radius: 10px;
+ height: 140vh;
+ width: 100%;
+ margin-bottom: 5px;
+ box-shadow: 0 0 2rem 0 rgb(1, 248, 252);
+ backdrop-filter: blur(1rem);
+ border: 1px solid-transparent;
+ background-color: rgba(116, 114, 114, 0.5);
+} 
+
+#testi,.flip-card-front img,.flip-card-back {
+  height: 300px;
+  width:300px
+
+}
+@media screen and (max-width: 300px) {
+  #testi,.flip-card-front img,.flip-card-back {
+      height: 200px;
+      width:200px
+  
+  }
+
+  #testimonials {
+      height: 200vh;
+  }
+  img {
+      height : auto;
+  }
+  .flip-card-back h1,.flip-card-back p{
+      font-size: 10px;
+  }
+}
+
+@media screen and (max-width: 300px) {
+  #f-1,.flip-card-front img,.flip-card-back {
+      height: 150px;
+      width:150px
+      
+  }
+  #workExp li, #workExp h1,#workExp h2,#workExp h4,#workExp p{
+      font-size: 10px;
+  }
+}
+
+/* <---------------------------------------------------------------------------------------------------------------------------------> */
+/* Contact page */
+
+#contact {
+padding-top: 8%;
+margin-top: 200px;
+ border-radius: 10px;
+ height: 110vh;
+ width: 100%;
+ /* margin-bottom: px; */
+ box-shadow: 0 0 2rem 0 rgb(1, 248, 252);
+ backdrop-filter: blur(1rem);
+ border: 1px solid-transparent;
+ background-color: rgba(116, 114, 114, 0.5);
+} 
+
+
+label {
+  height: 50px;
+  width: 300px;
+  display: inline-block;
+}
+form {
+  border-radius: 10px;
+  background:transparent;
+  box-shadow: 0 0 2rem 0 rgb(1, 248, 252);
+  color:aqua;
+  width: 290px;
+  padding: 4px;
+}
+form ,button {
+  
+}
+
+@media screen and (max-width: 300px) {
+  form {
+      width: 215px;
+      margin-bottom: 30px;
+      box-shadow: none;
+  }
+#contact {
+
+ width: 100%;
+ font-size:10px;
+}
+}
+
+
+/* <--------------------------------------------------------------------------------------------------------------------------------------------> */
+/* Animation */
+
+.bg {
+  background : linear-gradient(132deg, #b124dc, #34a8e6, #ec6e9a, #f007f8, #af05ed); 
+  background-size : 400% 400%;
+   animation : Gradient 5s ease infinite;
+  color: solid-transparent;
+
+}
+/* Animate Background*/
+@keyframes Gradient {
+0% {
+     background-position: 0% 50%
+   }
+50% { 
+     background-position: 100% 50%
+   }
+100% {
+  background-position: 0% 50%
+  }
+}
+
